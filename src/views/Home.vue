@@ -1,10 +1,11 @@
 <template>
-  <div>
-    <div class="row align-items-center">
-      <div class="col-lg-8">
-        <h2>Holy Quran</h2>
-        <router-link :to="{ path: 'surah-list' }">List Of Surah</router-link>
-      </div>
+  <div class="home-page d-flex justify-content-center align-items-center">
+    <div class="hero-content text-center">
+      <h1>The Holy Quran</h1>
+      <p>Learn quran and recite once everyday</p>
+      <router-link class="btn btn-primary" :to="{ path: 'surah-list' }"
+        >Bimillahir Rahmanir Rahim</router-link
+      >
     </div>
   </div>
 </template>
